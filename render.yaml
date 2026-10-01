@@ -13,8 +13,8 @@ services:
       - key: PREFIX
         value: .
       - key: OWNER_NUMBER
-        sync: false
+        sync: 917602624961
       - key: OWNER_NAME
-        value: X Babu
+        value: Crimex X
       - key: PAIRING_NUMBER
-        sync: false
+        sync: 917602624961
