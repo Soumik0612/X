@@ -1,0 +1,20 @@
+{
+  "name": "arceus-xd-mini",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot powered by Baileys v7.0.0-rc.14",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc.14",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "pino": "^9.7.0"
+  }
+}

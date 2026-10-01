@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: arceus-xd-mini
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: BOT_NAME
+        value: ARCEUS XD MINI
+      - key: PREFIX
+        value: .
+      - key: OWNER_NUMBER
+        sync: false
+      - key: OWNER_NAME
+        value: X Babu
+      - key: PAIRING_NUMBER
+        sync: false
